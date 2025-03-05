@@ -73,13 +73,13 @@ int main()
 
 	sf::Font font;
 	if (!font.loadFromFile("arial.ttf")) 
-	{
-		std::cerr << "Error loading font!" << std::endl;
+	 {
+	 std::cerr << "Error loading font!" << std::endl;
 		return EXIT_FAILURE;
-	}
+	 }
 
 	sf::Music music;
-	if (!music.openFromFile("idea.wav"))
+	if (!music.openFromFile("audio/idea.wav"))
 	{
 		std::cerr << "Error loadnig music!" << std::endl;
 		return EXIT_FAILURE;	
